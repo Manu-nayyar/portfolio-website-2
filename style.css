@@ -328,9 +328,10 @@ padding-left: 20rem;
      }
      
      .hero{
-         display: flex;
+         padding-top: 0;
          flex-direction: column-reverse;
          padding-right: 10px;
+         height: 80vh;
      }
      .hero img{
          height: 199px;
