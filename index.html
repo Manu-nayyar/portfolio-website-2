@@ -15,8 +15,11 @@
           <div class="logo">
               <a href="#"><img src="./assets/portfolio-logo.png" alt="" srcset=""></a>
               </div>
+              <button class="nav-toggle">
+                  <i class="fas fa-bars"></i>
+              </button>
               <nav>
-              <ul id="menuList">
+              <ul class="menu-list">
                   <li><a href ="#about">About</a></li>
                   <li><a href ="#skills">Skills</a></li>
                   <li><a href ="#projects">Projects</a></li>
@@ -24,8 +27,7 @@
               </ul>
             </nav>
             
-             <img src="./assets/icon-hamburger.svg" class="ham-menu" 
-             onclick ="togglemenu()">
+             
           
       </div>
   </div>
@@ -35,14 +37,21 @@
      <div class="hero-text">
      <h1>
          Hi, Im Manu <br>
-         Full Stack Developer
+         Full Stack  Developer
      </h1>
      <p> love to design front end and backend of the websites </p>
      </div>
-     <div class="hero-img">
-         <img src="./assets/porfile.png" alt="" srcset="">
+     
+    <div class="cv-button-section">
+        <div class="down-cv">
+            <a href="#" class="cv">Download CV</a>
+        </div>
+        <div class="contact-cv">
+            <a href="#contact" class="cv">Contact Me</a>
+        </div>
+    </div>
 
-     </div>
+     
  </div>
 
  <div class="skill-section" id="skills">
@@ -83,19 +92,19 @@
        </div>
        <div class="project-2">
         <div class="project-img">
-        <img src="./assets/modal.png" alt="" >
+        <img src="./assets/tour.png" alt="" >
         </div>
         <div class="project-text">
-            <h1>Modal</h1>
-            <p>A simple Modal website created by using HTML , CSS , JAVASCRIPT</p>
+            <h1>Tour Guide</h1>
+            <p>A tour guide website created by using React.js and External API</p>
         </div>
         <div class="project-buttons">
             <div class="project-github">
-                <a href="https://github.com/Manu-nayyar/javascript-modal" class="github">Source Code</a>
+                <a href="https://github.com/Manu-nayyar/tours-project" class="github">Source Code</a>
           
             </div>
             <div class="project-preview">
-          <a href="https://javascript-modal-kappa.vercel.app/" class="vercel">Preview</a>
+          <a href="https://tours-project-blond.vercel.app/" class="vercel">Preview</a>
             </div>
         </div>
      </div>
@@ -137,19 +146,19 @@
      </div>
      <div class="project-5">
         <div class="project-img">
-        <img src="./assets/to-do.png" alt="" srcset="">
+        <img src="./assets/accordian.png" alt="" srcset="">
         </div>
         <div class="project-text">
-            <h1>To-Do App</h1>
-            <p>A simple To-Do app created by using HTML , CSS , JAVASCRIPT</p>
+            <h1>Accordian </h1>
+            <p>A simple accordian created by using React.js </p>
         </div>
         <div class="project-buttons">
             <div class="project-github">
-                <a href="https://github.com/Manu-nayyar/to-do-list-1" class="github">Source Code</a>
+                <a href="https://github.com/Manu-nayyar/accordian" class="github">Source Code</a>
           
             </div>
             <div class="project-preview">
-          <a href="https://to-do-list-1-alpha.vercel.app/" class="vercel">Preview</a>
+          <a href="https://accordian-tan.vercel.app/" class="vercel">Preview</a>
             </div>
         </div>
      </div>
@@ -199,6 +208,6 @@
         <i class="fa-brands fa-instagram"></i>
     </div>
 </div>
-   
+   <script src="./script.js"></script>
 </body>
 </html>
